@@ -1,0 +1,136 @@
+body
+{
+	font-family:" Helvetica Neue",sans-serif;
+	font-size: 1.4em;
+	font-weight: 100;
+	width: 500px;
+	padding: 0px;
+	margin-left: 25em;
+
+ background-color: #97BF04;
+
+}
+p
+{
+	text-align: justify;
+
+}
+div
+{
+	display: flex;
+	flex-wrap: nowrap;
+}
+img
+{
+	width: 200px;
+	height: 200px;
+  border:3px solid #303030;
+  padding: 3px;
+  background-color: #bbbbbb;
+}
+
+
+
+h1 , h2
+{
+ color: #F24405;
+}
+
+h2
+{
+ font-family: 'Kaushan Script', cursive;
+}
+ul
+{
+background-color: white;
+margin: 0px;
+margin-left: 1em;
+font-family: 'Permanent Marker', cursive;
+
+}
+li
+{
+  background-color: white;
+  padding: 0.5em;
+
+}
+
+a
+{
+  color: blue;
+  font-style: italic;
+  font-family: 'Fresca', sans-serif;
+}
+
+p
+{
+  background-color: white;
+  padding: 1em;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1
+{
+  font-family: 'Patua One', cursive;
+  text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  body{
+    margin-left: 7em;
+    margin-right: 7em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body{
+    margin-left: 5em;
+    margin-right:5em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body{
+    margin-left: 2em;
+    margin-right:2em;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  body{
+    margin-left: 4em;
+    margin-right: 4em;
+    width: 500px;
+    font-size: 0.8em;
+
+
+  }
+  img
+  {
+  	width: 150px;
+  	height: 150px;
+  }
+  p
+  {
+  	width: 250px;
+  }
+  div
+  {
+    display: block;
+
+  }
+  ul
+  {
+    margin:0px;
+    margin-top:1em;
+  }
+
+  h1
+  {
+    text-align: left;
+  }
+}
